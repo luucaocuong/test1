@@ -7,7 +7,8 @@ Servo left_prop;
 
 /*MPU-6050 gives you 16 bits data so you have to create some 16int constants
  * to store the data for accelerations and gyro*/
-
+/*MPU-6050 gives you 16 bits data so you have to create some 16int constants
+ * to store the data for accelerations and gyro*/
 int16_t Acc_rawX, Acc_rawY, Acc_rawZ,Gyr_rawX, Gyr_rawY, Gyr_rawZ;
  
 
